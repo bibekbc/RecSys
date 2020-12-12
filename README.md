@@ -14,7 +14,7 @@ The movie dataset is downloaded from Kaggle (https://www.kaggle.com/rounakbanik/
 
 import os
 
-os.environ['KAGGLE_CONFIG_DIR']="<path of your kaggle.json file>"
+os.environ['KAGGLE_CONFIG_DIR']="[path of your kaggle.json file]"
 
 4. Download the movie dataset
 
@@ -22,7 +22,7 @@ os.environ['KAGGLE_CONFIG_DIR']="<path of your kaggle.json file>"
 
 5. The file downloaded will be in zip format. so unzip it 
 
-!unzip "<path of your zip file(movie dataset)>" -d "<place you want to unzip>"
+!unzip "<path of your zip file(movie dataset)>" -d "[place you want to unzip]"
   
 for more unzip:
 (https://colab.research.google.com/drive/1xinRwhXtlL-9Y0KbPrTmTxNdcN-Hvq4m#scrollTo=O1_kc7HBeslm)
